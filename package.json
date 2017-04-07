@@ -1,0 +1,32 @@
+{
+  "name": "todo-web",
+  "version": "0.0.1",
+  "description": "Reactを使ったToDoアプリです",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st-0403-jp/todo-web.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "田中暁",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st-0403-jp/todo-web/issues"
+  },
+  "homepage": "https://github.com/st-0403-jp/todo-web#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-less": "^3.3.0"
+  },
+  "scripts": {
+    "prestart": "gulp view & gulp less",
+    "start": "gulp serve"
+  }
+}
