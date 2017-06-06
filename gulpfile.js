@@ -42,7 +42,7 @@ gulp.task('less', function () {
 
 gulp.task('js', function () {
     browserify(path.src.js + '/top.js', {
-        debug: true,
+            debug: true,
         })
         .transform(babelify)
         .bundle()
